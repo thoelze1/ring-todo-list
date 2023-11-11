@@ -1,10 +1,20 @@
 # ring-todo-list
 
-A Clojure library designed to ... well, that part is up to you.
+This is intended to be a backend for [re-frame-todo-list](https://github.com/thoelze1/re-frame-todo-list).
 
 ## Usage
 
-FIXME
+```
+$ lein run
+```
+
+Then visit http://localhost:3000 or run `re-frame-todo-list` and send HTTP requests.
+
+## To reproduce this code:
+
+- Guide to ring server: https://clojurebridgelondon.github.io/community-docs/docs/web-applications/basic-ring/
+- Guide to react/node web app: https://medium.com/free-code-camp/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c
+- ring-cors: https://github.com/r0man/ring-cors
 
 ## License
 
